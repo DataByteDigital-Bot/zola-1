@@ -11,15 +11,15 @@ import { perplexityModels } from "./data/perplexity"
 import { ModelConfig } from "./types"
 
 // Static models (always available)
-const STATIC_MODELS: ModelConfig[] = [
-  ...openaiModels,
-  ...mistralModels,
-  ...deepseekModels,
-  ...claudeModels,
-  ...grokModels,
-  ...perplexityModels,
+ const STATIC_MODELS: ModelConfig[] = [
+//   ...openaiModels,
+//   ...mistralModels,
+//   ...deepseekModels,
+//   ...claudeModels,
+//   ...grokModels,
+//   ...perplexityModels,
   ...geminiModels,
-  ...ollamaModels, // Static fallback Ollama models
+  // ...ollamaModels, // Static fallback Ollama models
   ...openrouterModels,
 ]
 
