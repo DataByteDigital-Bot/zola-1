@@ -20,7 +20,7 @@ import { ModelConfig } from "./types"
 //   ...perplexityModels,
   ...geminiModels,
   // ...ollamaModels, // Static fallback Ollama models
-  ...openrouterModels,
+  // ...openrouterModels,
 ]
 
 // Dynamic models cache
