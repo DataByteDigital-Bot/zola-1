@@ -19,7 +19,7 @@ import { ModelConfig } from "./types"
 //   ...grokModels,
 //   ...perplexityModels,
   ...geminiModels,
-  // ...ollamaModels, // Static fallback Ollama models
+  ...ollamaModels, // Static fallback Ollama models
   // ...openrouterModels,
 ]
 
